@@ -1,16 +1,11 @@
 variable "project_id" {
   type    = string
-  default = "terraform-gcp"
+  default = "project-da650e2e-4990-4992-b69"
 }
 
 variable "region" {
   type    = string
   default = "us-west1"
-}
-
-variable "credentials_file" {
-  type    = string
-  default = ""
 }
 
 variable "remote_state_bucket" {
