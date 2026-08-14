@@ -15,7 +15,7 @@ variable "credentials_file" {
 
 variable "remote_state_bucket" {
   type    = string
-  default = "REPLACE_WITH_STATE_BUCKET"
+  default = "my-terraform-state-poc"
 }
 
 variable "remote_state_prefix" {
