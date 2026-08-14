@@ -31,7 +31,7 @@ jobs:
         uses: hashicorp/setup-terraform@v3
 
       - name: Terraform Init
-        run: terraform init -backend-config="bucket=my-terraform-state-poc" -backend-config="prefix=terraform/state
+        run: terraform init -backend-config="bucket=my-terraform-state-poc" -backend-config="prefix=terraform/state"
 
       - name: Terraform Plan
         run: terraform plan
