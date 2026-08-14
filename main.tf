@@ -26,9 +26,3 @@ module "compute" {
   ]
 }
 
-module "storage" {
-  source     = "./modules/storage"
-  project_id = var.project_id
-  bucket_name = "bucket-sub-1"
-  location   = "US"
-}
